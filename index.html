@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exam Mark Grader with Alert</title>
+  <link rel="stylesheet" href="./style2.css">
+  <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="logo"> <img src="images/speedometer.png" alt=""></header>
+  <div class="intro">
+    <h1> Welcome To the Exam Score Grader Page</h1>
+    <p>This page shows your score grade with an alert, after clicking the <b>SUBMIT</b> Button below</p>
+  </div>
+  <form name="form" action="#">
+    <h3>Input your score or marks</h3>
+    <!--designate the inpute type as number and restrict the range between 0 to 100-->
+    <input type="number" name="text1" placeholder="Enter your score digits only" min="0" max="100">
+    <br /><br />
+    <input type="button" value="SUBMIT" class="button" onclick='marksgrade()'>
+
+  </form>
+  <script src="script2.js"></script>
+</body>
+
+</html>
